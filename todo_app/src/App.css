@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+.toto{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  border: 2ps solid red;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.todoList{
+  width: 60%;
+  position: relative;
+  left: 20%;
+}
+
+p,button{
+  font-size: 25px;
+  color: rgb(45, 30, 30);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.weight{
+  font-weight: bold;
+}
+
+#addtodo{
+  padding: 15px 25px;
+}
+
+label{
+  font-size: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-right: 10px;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+input{
+  padding:10px ;
+}
+textarea{
+  padding: 5px;
+}
+
+
+button{
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+
+}
+
+.entry{
+  width: 18%;
+  text-align: center;
+  font-size: 17px;
+  
+}
